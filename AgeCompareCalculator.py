@@ -1,0 +1,6 @@
+Person1 = input('What is the age of the first person?')
+Person2 = input('What is the age of the second person?')
+Person1 = int(Person1)
+Person2 = int(Person2)
+Diff = abs(Person1 - Person2)
+print(Diff)
